@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: white;
+    padding:20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.logo{
+    color: #220394;
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+
+}
+.menu{
+    width: 60%;
+    text-align: right;
+}
+.menu a{
+    color: #4b3697;
+    
+}
+.menu a{
+    color: #34207a;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 01s;
+
+}
+.menu a:hover{
+    color: #48358d;
+}
+.menu .btn-menu{
+    background-color: #124265;
+    display: inline-block;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 6px;
+}
+.menu .btn-menu:hover{
+    background-color: #124265;
+    color:white;
+}
+section .main{
+    background-image: url("img/hero-bg.jpg");
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main-cta{
+    width: 100%;
+    margin:60px 0;
+    text-align: center;
+}
+.main-cta h2{
+    color: #124265;
+    font-size: 40px;
+}
+.main-cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+.main-cta button{
+    background-color: #124265;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.diferenciais{
+    display:flex;
+    flex-wrap: wrap;
+}.diferencial-single{
+    border-radius: 10px;
+    color: rgb(8, 6, 6);
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+}
+.diferencial-single i{
+    color: #124265;
+}
+.diferencial-single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 17px;
+}
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .diferencial-single{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .conteudo-sobre p{
+        width: 100%;
+        margin-bottom: 20px 20px;
+    }
+}
+section .sobre{
+    padding: 80px 0;
+}
+.chamada-sobre{
+    text-align: center;
+    color: #124265;
+    text-transform: uppercase;
+}
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudo-sobre p{
+    margin: 0 20px;
+    color: #444;
+}
+.conteudo-sobre i{
+    color: #34207a;
+}
+.conteudo-sobre span{
+    margin-bottom: 10px;
+}
+section .conquistas{
+    background-color: #fafbfa;
+    padding:5px 0;
+}
+.conquistas-single{
+    width: 22px;
+    margin:10%;
+    text-align: center;
+    color: #124265;
+}
+.conquistas-single h2{
+    font-size: 30px;
+}
